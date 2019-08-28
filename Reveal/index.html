@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Reveal Bootstrap Template</title>
+    <title>Like X, For Y - UX/UI Design Idea Generator - Personal Projects for your UX Portfolio</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -35,34 +35,7 @@
       /*  Like X  */
       //Create array with apps/services - https://yougov.co.uk/ratings/technology/popularity/digital-services/all
       let ServicesArr = [
-        'AirBnB',
-        'Uber',
-        'eBay',
-        'Netflix',
-        'Amazon',
-        'Flipboard',
-        'Facebook',
-        'Facebook Lite',
-        'Facebook Messenger',
-        'WhatsApp',
-        'Deliveroo',
-        'Viber',
-        'LINE',
-        'DropBox',
-        'Slack',
-        'SHAREit',
-        'SnapChat',
-        'Instagram',
-        'LinkedIn',
-        'GlassDoor',
-        'Indeed',
-        'Expedia',
-        'Kayak',
-        'Booking.com',
-        'WebMD',
-        'Wikipedia',
-        'Wix.com',
-        'Flickr',
+        'AirBnB','Uber','eBay','Netflix','Amazon','Flipboard','Facebook','Facebook Lite','Facebook Messenger','WhatsApp','Deliveroo','Viber','LINE','DropBox','Slack','SHAREit','SnapChat','Instagram','LinkedIn','GlassDoor','Indeed','Expedia','Kayak','Booking.com','WebMD','Wikipedia','Wix.com','Flickr','Which?', 'NHS', 'TripAdvisor', 'TrustPilot', 'Basecamp', 'Trello', 'Google Earth', 'Money Saving Expert', 'Open University', 'MoneySupermarket', 'YouGov', 'Kindle', 'Spotify', 'The AA', 'IMDB', 'Skype',  'Groupon', 'Udemy', 'Skillshare', 'Just Giving', 'Trivago', 'Just Eat', 'Zoopla', 'Rightmove', 'FitBit', 'Office 365', 'Yell.com', 'VoucherCodes', 'BBC Bitesize', 'Etsy', 'WikiHow', 'TopCashBack', 'CheckaTrade', 'Mobile Banking', 'o2 Priority Moments', 'BuzzFeed', 'SoundCloud', 'MumsNet', 'Purple Bricks', 'QuidCo', 'MyFitnessPal', 'MapMyRun', 'Audible', 'ClearScore', 'Steam', 'Wayfair', 'Shpock', 'Wordpress', 'Eventbrite', 'Meetup.com', 'Boomerang', 'TikTok', 'TechRadar', 'ProductHunt', 'Headspace', 'WeBuyAnyCar', 'Tindr',  'Ancestry.co.uk', 'FindMyPast', 'Fandom', 'Bitmoji', 'Vimeo', 'DailyMotion', 'Google Hangouts', 'Deezer', 'BBC Sounds', '38Degrees', 'Match.com', 'Strava', 'Rakuten', 'Twitch', 'Money.co.uk', 'eHarmony', 'Rated People', 'Live Nation', 'Change.org', 'HolidayPirates', 'Swagbucks', 'Spare Room', 'Google Keep', 'Doddle', 'Parlkpedia', 'Depop', 'POF', 'Voyage Prive', 'Squarespace', 'Eventim', 'Sharepoint', 'Stack Overflow', 'Discogs', 'Quora', 'ScienceDirect', 'Ecosia', 'FlashScores', 'WolframAlpha', 'Huji', 'Twistity.com', 'Guru Shots', 'Nextag', 'Carbonite'
       ];
 
       //Generate a random number between 0 and length of app array
@@ -75,29 +48,7 @@
 
       //Create Array with Careers Types - https://nationalcareers.service.gov.uk/job-categories/
       let CareerArr = [
-        'Accounting technicians',
-        'Admin assistants',
-        'Office administrators',
-        'clerical assistants',
-        'administrative assistants',
-        'Arts administrators',
-        'Assistant immigration officers',
-        'Auditors',
-        'Bid writers',
-        ' Bilingual secretarys',
-        'Bookkeepers',
-        'Accounts clerks',
-        'Border Force officers',
-        'Car rental agents',
-        'Car rental assistants',
-        'vehicle reservation agents',
-        'Charity fundraisers',
-        'Civil Service administrative officers',
-        'Civil Service executive officers',
-        'Conference and exhibition managers',
-        'Conference organisers',
-        'Credit controllers',
-        'Debt collection agents',
+        "Airline customer service agents", "Airline pilots", "Airport information assistants", "Cabin crew", "Cruise ship stewards", "Divers", "Fairground workers", "Hotel managers", "Hotel porters", "Hotel receptionists", "Hotel room attendants", "Housekeepers", "Interpreters", "Lock keepers", "Museum assistants", "Port operatives", "Resort representatives", "Riding holiday centre managers", "Riding holiday leaders", "Sailing instructors", "Tour managers", "Tourist guides", "Tour guides", "Blue Badge guides,Tourist information centre assistants", "Travel agency managers", "Travel agents", "Travel consultants", "Air traffic controllers", "Airline baggage handlers", "Cargo handlers", "ramp hands", "Airport information assistants", "Patient transport service drivers", "ambulance staff", "Bus or coach drivers", "Car rental agents", "Car valets", "Care escorts", "Community transport passenger assistants", "Chauffeurs", "Community transport drivers", "Delivery van drivers", "Driving instructors", "Fishing vessel skippers", "Forklift drivers", "Garage managers", "Helicopter engineers", "Helicopter pilots", "Import-export clerks", "LGV drivers", "HGV drivers", "lorry drivers", "Merchant Navy deck officers", "Merchant Navy ratings", "Motor vehicle parts persons", "Patient transport service controllers", "Port operatives", "Stevedores", "Passenger operations workers", "port workers", "Rail engineering technicians", "Rail track maintenance workers", "Railway signallers", "Road traffic accident investigators", "Road transport managers", "Signalling technicians", "Supply chain managers", "Tanker drivers", "Taxi drivers", "Tractor drivers", "Train conductors", "Train drivers", "Train station workers", "Tram drivers", "Transport planners", "Windscreen fitters", "Windscreen repairers,Art gallery curators", "Audio-visual technicians", "British Sign Language teachers", "Careers advisers", "Child protection officers", "Communication support workers", "Community education co-ordinators", "Criminologist", "Social science researchers", "Cycling coaches", "Dance teachers", "E-learning developers", "Education technicians", "Education welfare officers", "English as a foreign language (EFL) teachers", "Equalities officers", "Further education lecturers", "Headteachers", "Health promotion specialists", "Higher education lecturers", "HE lecturers", "university lecturers", "Learning mentors", "Librarians", "Library assistants", "Martial arts instructors", "Montessori teachers", "Museum curators", "Music teachers", "Nursery workers", "Ofsted inspectors", "Online tutors", "Outdoor activities instructors", "PE teachers", "Playworkers", "Portage home visitors", "Primary school teachers", "Prison instructors", "QCF assessors", "NVQ assessors", "Research and development managers", "R&D manager", "industrial scientists", "Sailing instructors", "School business managers", "Lollipop persons", "School lunchtime supervisors", "School matrons", "Secondary school teachers", "Singing teachers", "Singing coaches", "Skills for life teachers", "Special educational needs (SEN) teachers", "Special educational needs (SEN) teaching assistants", "Special needs classroom assistants", "special needs learning support assistants", "Swimming teachers", "Swimming coaches", "Teaching assistants", "Trade union officials", "Training managers", "Training officers", "Yoga teachers", "Youth worker", "Athletes", "Betting shop cashiers", "Bingo callers", "Bookmakers", "Cricketers", "Croupiers", "Fitness instructors", "Fitness trainers", "Football coaches", "Football referees", "Footballers", "Horse riding instructors", "Jockeys", "Leisure centre assistants", "Leisure centre managers", "Sports centre managers", "gym managers", "Lifeguards", "Motorsport engineers", "Outdoor activities instructors", "PE teachers", "Personal trainers", "Pilates teachers", "Racehorse trainers", "Sport and exercise psychologists", "Sports agents", "Sports coaches", "Sports commentators", "Sports development officers", "Sports physiotherapists", "Sports professionals", "Sports scientists", "Stunt performer", "Property managers", "Art therapists", "Care home advocates", "Care home managers", "Childminders", "Clinical psychologists", "Cognitive behavioural therapists", "Counsellors", "Therapists", "Dramatherapists", "Drug and alcohol workers", "Equalities officers", "Family mediators", "Family support workers", "Forensic psychologists", "Criminal psychologists", "Foster carers", "Funeral directors", "Undertakers", "Horticultural therapists", "Housing officers", "Learning mentors", "Life coaches", "Money advisers", "Music therapists", "Nannies", "Occupational therapists", "Palliative care assistants", "Patient advice and liaison service (PALS) officerss", "Play therapists", "Psychological wellbeing practitioners", "Probation officers", "Psychologists", "Psychotherapists", "Religious leaders", "Residential support workers", "Senior care workers", "Sexual health advisers", "Social services managers", "Social workers", "Substance misuse outreach workers", "Victim care officers", "Witness support officers", "Youth offending team officer", "Acoustics consultants", "Agronomists", "Crop scientists", "Analytical textile technologists", "Animal technicians", "Arboricultural officers", "Archaeologists", "Astronauts", "Astronomers", "Astrophysicists", "Audiologists", "Biomedical scientists", "Biotechnologists", "Botanists", "Plant biologists", "Cartographers", "Chemical engineers", "Chemical engineering technicians", "Chemists", "Climatologists", "Clinical scientists", "Consumer scientists", "Countryside officers", "Conservation officers", "Criminal intelligence analysts", "Intelligence officers", "Data analyst-statisticians", "Ecologists", "Economists", "Education technicians", "Electronics engineers", "Energy engineers", "Environmental consultants", "Fingerprint officers", "Food scientists", "Forensic scientists", "Garment technologists", "Geneticists", "Geoscientists", "Geologists", "Geospatial technicians", "Geotechnicians", "Healthcare science assistants", "Housing policy officers", "Hydrologists", "Laboratory technicians", "Land surveyors", "Marine engineers", "Market research data analysts", "Market researchers", "Materials engineers", "Materials technicians", "Medical physicists", "Meteorologists", "Metrologists", "Microbiologists", "Nanotechnologists", "Nuclear engineers", "Oceanographers", "Operational researchers", "Palaeontologists", "Pathologists", "Pet behaviour counsellors", "Pharmacologists", "Physicists", "Proofreaders", "Psychiatrists", "Quarry engineers", "Mining engineers", "Research scientists", "Robotics engineers", "Automation engineers", "Scenes of crime officers", "Seismologists", "Geophysicists", "Sport and exercise psychologists", "Sports scientists", "Technical brewers", "Textile dyeing technicians", "Vets", "Veterinary surgeons", "Zoologists", "Account handlers", "Advertising account planners", "Advertising media buyers", "Antique Dealers", "Art valuers", "Banking customer service advisers", "Bar staff", "Baristas", "Beauticians", "Booksellers", "Builders' merchants", "Business analysts", "Business development managers", "Butchers", "Checkout operators", "Conference and exhibition managers", "Construction plant hire advisers", "Customer service assistants", "Customer services managers", "E-commerce managers", "Emergency medical dispatcher", "Estate agents", "Events managers", "Fishmongers", "Florists", "Franchise owners", "Garden nursery assistants", "Garden centre managers", "Insurance account managers", "Land and property valuer and auctioneers", "Market traders", "Marketing directors", "Managing directors", "Marketing executives", "Marketing managers", " Medical sales representatives", "Music promotions managers", "Personal shoppers", "Pet shop assistants", "Petrol station sales assistants", "Pharmacists", "Pharmacy assistants", "Pharmacy technicians", "Post Office customer service assistants", "Public relations directors", "Jewellers", "Retail managers", "Retail merchandisers", "Sales administrators", "Sales assistants", "Sales managers", "Sales representatives", "Shelf fillers", "Shopkeepers", "Stock control assistants", "Telephonists", "Train station workers", "Vending machine operators", "Visual merchandisers", "Wine merchants", "3D printing technicians", "Aerospace engineers", "Aerospace engineering technicians", "Agricultural engineers", "Agricultural engineering technicians", "Automotive engineers", "Blacksmiths", "Brewery workers", "Building services engineers", "CNC machinists", "CNC operators", "Car manufacturing workers", "Chemical engineers", "Chemical engineering technicians", "Chemical plant process operators", "Crane drivers", "Crane operators", "Design and development engineers", "Dressmakers", "Electronics engineers", "Energy engineers", "Renewable energy engineers", "Engineering construction technicians", "Engineering craft machinists,Footwear manufacturing operatives", "Foundry mould makers", "Foundry process operators", "Glassmakers", "Industrial knitters", "Leather craftworkers", "Saddlers", "Leather technologists", "Maintenance fitters", "Manufacturing supervisors", "Manufacturing systems engineers", "Marine engineers", "Meat process workers", "Microbrewers", "Craft brewers", "craft distillers", "Motor mechanics", "Musical instrument maker and repairers", "Naval architects", "Non-destructive testing technicians", "Packaging technologists", "Packers", "Paint sprayers", "Paper makers", "Patent attorneys", "Pattern cutters", "Product designers", "Industrial designers", "3D designers", "Prototype designers", "Inventors", "Production managers (manufacturing)", "Factory workers", "Quality control assistants", "Quarry workers", "Rail engineering technicians", "Recycling operatives", "Reprographic assistants", "Oil rig workers", "Sewing machinists", "Signmakers", "Textile operatives", "Textiles production managers", "Toolmakers", "Vehicle body repairers", "Welders", "Wood machinists", "Art gallery curators", "Business advisers", "Business project managers", "Charity directors", "Charity fundraisers", "CEOs", "Chief inspectors", "Community education co-ordinators", "Conference and exhibition managers", "Construction managers", "Digital delivery managers", "Diplomatic service officers", "E-commerce managers", "Economic development offices", "Economists", "Estates officers", "Estimators", "European Union officials", "Facilities managers", "Farmers", "GP practice managers", "Hairdressing salon managers", "Head of IT (IT director)s", "Health and safety advisers", "Health service managers", "Human resources managers", "Human resources officers", "MPs", "Management accountants", "Management consultants", "Production line supervisors", "Marketing managers", "Museum curators", "Network managers", "IT managers", "Office managers", "Oil and gas operations managers", "Operational researchers", "Payroll managers", "Planning and development surveyors", "Private practice accountants", "Quantity surveyors", "Rural surveyors", "TV or film producers", "Tax inspectors", "Technical architects", "Town planners", "urban designers", "Training managers", "Transport planners", "Visitor attraction general managers", "Warehouse managers", "Wedding planners", "Bailiffs", "Barristers", "Coroners", "Court administrative assistants", "Court legal advisers", "Court ushers", "Crown prosecutors", "Immigration adviser (non-government)s", "Judges", "Legal executives", "Legal secretarys", "Licensed conveyancers", "Magistrates", "Paralegals", "Legal assistants", "Private investigators", "Proofreaders", "Solicitors", "Trade mark attorneys", "Trading standards officers", "Witness support officers", "Citizens Advice advisers", "Property managers", "Refuse collectors", "Bodyguards", "Close protection officers", "Butlers", "Janitors", "Chimney sweeps", "Crematorium technicians", "Cruise ship stewards", "Domestic energy assessors", "Dry cleaners", "Embalmers", "Handypersons", "Highways cleaners", "Image consultants", "Laundry workers", "Pest control technicians", "Postal delivery workers", "Private investigators", "Recycled metals workers", "atellite engineers", "Tailors", "Window cleaners", "Acoustics consultants", "Acupuncturists", "Anaesthetists", "Art psychotherapists", "Children's nurses", "Chiropractors", "Colon hydrotherapists", "Colour therapists", "Community matrons", "Cosmetic surgeons", "Counsellors", "Critical care technologists", "Dance movement psychotherapists", "Dental hygienists", "Dental nurses", "Dental technicians", "Dental therapists", "Dentists", "Dietitians", "Dispensing opticians", "District nurses", "Emergency care assistants", "Emergency call handler, ambulance dispatchers", "GPs", "Geneticists", "Health play specialists", "Health promotion specialists", "NHS hospital managers", "Health trainers", "Health visitors", "Homeopaths", "Hospital doctors", "Hospital porters", "Hypnotherapists", "Learning disability nurses", "Maternity support workers", "Medical herbalists", "Medical illustrators", "Medical physicists", "Mental health nurses", "Microbiologists", "Midwives", " Nurses", "Nutritional therapists", "Nutritionists", "Occupational health nurses", "Operating department practitioners", "Optometrists", "Orthoptists", "Osteopaths", "Paediatricians", "Paramedics", "Ambulance paramedics", "Pharmacists", "Phlebotomists", "Physicists", "Physiotherapists", "Podiatrists", "Practice nurses", "Prosthetist-orthotists", "Radiographers", "Radiography assistants", "Reiki healers", "School nurses", "Sexual health advisers", "Speech and language therapists", "Sterile services technicians", "Surgeons", "Yoga therapists", "Air accident investigators", "Army officers", "Bomb disposal technicians", "Border Force officers", "Careers advisers", "Cemetery workers", "Chief inspectors", "Civil enforcement officers", "Coastguards", "Criminologists", "Dog handlers", "Street wardens", "Ofsted inspectors", "Police community support officers", "Police officers", "Prison governors", "RAF airman or airwoman", "RAF non-commissioned aircrew", "RAF officers", "Registrar of births, deaths, marriages and civil partnerships", "Road traffic accident investigators", "Royal Marines commandos", "Royal Marines officers", "Royal Navy officers", "Royal Navy ratings", "Security Service personnel", "Soldiers", "Gravediggers", "Climate scientists", "Countryside rangers", "Drone pilots", "UAV pilots", "Farm labourers", "Fence installers", "Fish farmers", "Florists", "Forest officers", "Forestry workers", "Lumberjacks", "Gamekeepers", "Gardeners", "Geologists", "Geospatial technicians", "Geotechnicians", "Geographic information systems (GIS) surveyors", "Landscape architects", "Landscapers", "Landscape gardeners", "landscape designers", "Marine engineers", "il and gas exploration managers", "Ornithologists", "Palaeontologists", "Seismologists", "Geophysicists", "Thermal insulation engineers", "Tractor drivers", "combine harvester drivers", "Tree surgeon", "Arborists", "Water network operatives", "Water treatment workers", "Water quality technicians", "Wind turbine technicians", "Tree climbers" , "Arborists", "Water network operatives", "Water treatment workers", "Water quality technicians", "Wind turbine technicians","Actors", "Archivists", "Broadcast engineers", "Broadcast journalists", "CAD technicians", "Ceramics designer-makers", "Choreographers", "Circus performers", "Classical musicians", "Games testers", "quality assurance testers", "Conservation officers", "Copy editors", "Costume designers", "DJs", "Design and development engineers", "Digital marketers", "Cinematographers", "Editorial assistants", "Ergonomists", "Human factors specialists", "Exhibition designers", "Fashion design assistants", "Fashion designers", "Fashion models", "French polishers", "Furniture designers", "Furniture makers", "Furniture restorers", "Glassmakers", "Graphic designers", "Illustrators", "Indexers", "Interior designers", "Jewellery designer-makers", "Silversmiths", "Lighting technicians", "Gaffers", "Live sound engineers", "Magazine journalists", "ake-up artists", "Market researchers", "Naval architects", "Newspaper journalists", "Reporters", "Newspaper or magazine editors", "Photographers", "Photographic stylists", "Photographic technicians", "Picture framers", "Pop musicians", "Pre-press operators", "Product designers", "Prop makers", "Communications officers", "Radio broadcast assistants", "Retail merchandisers", "Roadies", "Screenwriters", "Set designers", "Signwriters", "Singing teachers", "Sports commentators", "Stage managers", "Stagehands", "Backstage crew members", "Stonemasons", "Studio sound engineers", "Audio engineers", "Stunt performers", "Sub-editors", "TV or film camera operators", "TV or film directors", "TV or film producers", "TV or film production assistants", "TV or film production managers", "TV or film production runners", "TV or film sound technicians", "TV presenters", "Tattooists", "Taxidermists", "Technical authors", "Technical copywriters", "Technical textiles designers", "Textile designers", "Translators", "Upholsterers", "Video editors", "Visual merchandisers", "Vloggers", "Wardrobe assistants", "Web content editors", "Content designers", "web content designers", "digital editors", "Web designers", "Digital designers", "Writers", "Authors", "Architects", "Boat builders", "Bricklayers", "Masons", "Builders' merchants", "Building site inspectors", "Building surveyors", "Carpenters", "Joiners", "Flooring fitters", "Ceiling fixers", "Civil engineers", "Groundworkers", "Construction plant operators", "Demolition operatives", "Electricians", "Electricity distribution workers", "Gas mains layers", "Gas service technicians", "Glaziers", "Kitchen and bathroom fitters", "Landscapers", "Plasterers", "Plumbers", "Air-con engineers", "HVAC engineers", "Road construction operatives", "Roofers", "Scaffolders", "Shopfitters", "Steel erectors", "Steel fixers", "Steeplejacks", "Structural engineers", "Thatchers", "Tilers", "urban designers", "Town planning assistants", "Welders", "MIG welders", "TIG welders", "Arc welders", "Window fitters", "App developers", "App designers", "Mobile app developers", "Cyber intelligence officers", "Data entry clerks", "Digital product owners", "E-learning developers", "Cyber security professionals", "Heads of IT (IT director)", "IT project managers", "IT programme managers", "IT consultants", "IT security co-ordinators", "Information security analysts", "IT service engineers", "IT support engineers", "IT field engineers", "IT support technicians", "IT user support technicians", "IT helpdesk technicians", " Service desk technicians", "Information managers", "Media researchers", "Network administrators", "Social media managers", "Software developers", "Programmers", "Solutions architects", "Systems analysts", "Switchboard operators", "User experience (UX) designers", "User researchers", "Web developers", "Actuaries", "Business consultant, enterprise adviser, business coaches", "Treasurers", "Financial advisers", "Independent financial advisers", "Financial services customer advisers", "Insurance brokers", "Insurance claims handlers", "Insurance loss adjusters", "Insurance risk surveyors", "Insurance technicians", "Insurance underwriters", "Investment analysts", "Local government revenues officers", "Benefits officers", "Debt counsellors", "Mortgage advisers", "Pensions administrators", "Pensions advisers", "Public finance accountants", "School business managers", "Stockbrokers", "Tax advisers", "Aromatherapists", "Beauticians", "Beauty therapists", "Body piercers", "Hairdressers", "Massage therapists", "Nail technicians", "Reflexologists", "Farriers", "Dog Groomers", "Beekeepers", "Assistance Dog Trainers", "Horse Grooms", "Fishing Boat Deckhands", "Kennel Workers", "RSPCA Inspectors",  "Veterinary nurses", "Veterinary physiotherapists", "Animal physiotherapists", "Zookeeper"
       ];
 
       //Create Array with Event Types
@@ -157,26 +108,8 @@
 
         <nav id="nav-menu-container">
           <ul class="nav-menu">
-            <li class="menu-active"><a href="#body">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li class="menu-has-children">
-              <a href="">Learn UX</a>
-              <ul>
-                <li><a href="learn-ux.html">User Research</a></li>
-                <li><a href="learn-ux.html">UX Process</a></li>
-                <li><a href="learn-ux.html">UX Reading list</a></li>
-                <li><a href="learn-ux.html">UX Courses</a></li>
-              </ul>
-            </li>
-            <li class="menu-has-children">
-              <a href="">Learn UI</a>
-              <ul>
-                <li><a href="learn-ui.html">Design Research</a></li>
-                <li><a href="learn-ui.html">Visual Design Principles</a></li>
-                <li><a href="learn-ui.html">UI Reading list</a></li>
-                <li><a href="learn-ui.html">UI Design Courses</a></li>
-              </ul>
-            </li>
+            <li class="menu-active"><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
           </ul>
         </nav>
         <!-- #nav-menu-container -->
@@ -191,8 +124,8 @@
       <div class="intro-content">
         <h2>It's like <span id="this-x">X</span><br />for <span id="that-y">Y</span></h2>
         <div>
-          <a href="#about" class="btn-get-started scrollto">Explore This Idea</a>
-          <a onclick="ideaGen()" class="btn-projects scrollto">Generate Another Idea</a>
+          <!-- <a href="#about" class="btn-get-started scrollto">Explore This Idea</a> -->
+          <a onclick="ideaGen()" class="btn-projects scrollto">Generate Idea</a>
         </div>
       </div>
 
@@ -218,16 +151,14 @@
             </div>
 
             <div class="col-lg-6 content">
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
-              <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+              <h2>Generate an idea and do something with it!</h2>
+              <h3>Fed up with trying to find ideas for portfolio projects, I created this site to suggest ideas for me.</h3>
 
               <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="ion-android-checkmark-circle"></i> User Research Projects</li>
+                <li><i class="ion-android-checkmark-circle"></i> UX/UI Design Projects</li>
                 <li>
-                  <i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                  in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
-                </li>
+                  <i class="ion-android-checkmark-circle"></i> Personal Projects to fill your portfolio with! </li>
               </ul>
             </div>
           </div>
@@ -241,40 +172,43 @@
       <section id="services">
         <div class="container">
           <div class="section-header">
-            <h2>Services</h2>
+            <h2>What now?</h2>
             <p>
-              Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram
-              noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore
+              Generate ideas until you see one that sounds interesting. Take that as your starting point for a new project and go fill your portfolio with the work that you can do now that you don't need to spend ages on the internet trying to find an idea to work on.
+            </p>
+            <br/>
+            <p>
+              Go read up on Service X, investigate Audience Y start to conjur up ways that the two could work together - no sparks? Generate a new idea. Getting a good starting point for a project is now easier for all of us.
             </p>
           </div>
 
           <div class="row">
             <div class="col-lg-6">
               <div class="box wow fadeInLeft">
-                <div class="icon"><i class="fa fa-bar-chart"></i></div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                <div class="icon"><i class="fa fa-user"></i></div>
+                <h4 class="title">UX Design</h4>
                 <p class="description">
-                  Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.
+                  What goals will someone try to achieve with your idea? What context will it be used?
                 </p>
               </div>
             </div>
 
             <div class="col-lg-6">
               <div class="box wow fadeInRight">
-                <div class="icon"><i class="fa fa-picture-o"></i></div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                <div class="icon"><i class="fa fa-object-group"></i></div>
+                <h4 class="title">UI Design</h4>
                 <p class="description">
-                  Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.
+                  What information needs to be presented to the audience of your idea? What can be removed?
                 </p>
               </div>
             </div>
 
             <div class="col-lg-6">
               <div class="box wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                <div class="icon"><i class="fa fa-briefcase"></i></div>
+                <h4 class="title">Business Model</h4>
                 <p class="description">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.
+                  How would the approach provide a solution for your ideas' audience? Is there a real need for this kind of solution?
                 </p>
               </div>
             </div>
@@ -282,9 +216,9 @@
             <div class="col-lg-6">
               <div class="box wow fadeInRight" data-wow-delay="0.2s">
                 <div class="icon"><i class="fa fa-map"></i></div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
+                <h4 class="title">User Journeys</h4>
                 <p class="description">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera
+                  Map out the way that a new audience would navigate/use your idea - how do their characteristics change the existing approach?
                 </p>
               </div>
             </div>
@@ -296,7 +230,7 @@
       <!--==========================
       Testimonials Section
     ============================-->
-      <section id="testimonials" class="wow fadeInUp">
+      <!-- <section id="testimonials" class="wow fadeInUp">
         <div class="container">
           <div class="section-header">
             <h2>Testimonials</h2>
@@ -367,7 +301,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- #testimonials -->
 
       <!--==========================
@@ -377,14 +311,15 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-9 text-center text-lg-left">
-              <h3 class="cta-title">Call To Action</h3>
+              <h3 class="cta-title">Tell me what you do</h3>
               <p class="cta-text">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I'm putting this to use to make my own portfolio projects to let me explore the UX Design process much more than I am always able to at work.</p>
+                
+              <p class="cta-text">If you find this useful and you bring together a project of your own - please let me know, I'd love to see your work and be able to add some testimonials here.
               </p>
             </div>
             <div class="col-lg-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle" href="#">Call To Action</a>
+              <a class="cta-btn align-middle" href="mailto:lxfy@coffield.co.uk">Email Me</a>
             </div>
           </div>
         </div>
@@ -397,7 +332,7 @@
   ============================-->
     <footer id="footer">
       <div class="container">
-        <div class="copyright">&copy; Copyright <strong>Reveal</strong>. All Rights Reserved</div>
+        <div class="copyright">&copy; Copyright <a href="https://coffield.co.uk/?utm_source=LXFY_footer">Paul Coffield</a> - All Rights Reserved</div>
         <div class="credits">
           <!--
           All the links in the footer should remain intact.
@@ -405,7 +340,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
         -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Theme by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
     </footer>
