@@ -1,4 +1,4 @@
-# LXFY
+# LXFY [https://likexfory.com](https://likexfory.com)
 
 Like X for Y - UX / UI Design Idea Generator
 
