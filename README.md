@@ -1,4 +1,4 @@
-# LXFY - [https://likexfory.com](https://likexfory.com)
+# LXFY - [Try it out](https://paulcoffield.github.io/LXFY/)
 
 Like X for Y - UX / UI Design Idea Generator
 
